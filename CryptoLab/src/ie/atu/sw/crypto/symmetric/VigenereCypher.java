@@ -102,7 +102,7 @@ public class VigenereCypher extends AbstractCypher{
 	/* Return the character in the first column of the row containing the cypher character that intersects with the
 	 * column containing the keyword character. 
 	 */
-	private byte getDecryptedCharacter(char key, char cypher){
+	public byte getDecryptedCharacter(char key, char cypher){
 		for (int cols = 0; cols < tabulaRecta[0].length; cols++){
 			if (tabulaRecta[0][cols] == key){
 				for (int rows = 0; rows < tabulaRecta.length; rows++){

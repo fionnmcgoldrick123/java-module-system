@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Vigenere {
+module atu.classic {
 }
