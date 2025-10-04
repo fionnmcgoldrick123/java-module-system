@@ -4,5 +4,5 @@
 /**
  * 
  */
-module CryptoLab {
+open module atu.software {
 }

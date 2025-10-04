@@ -1,4 +1,7 @@
-package ie.atu.sw;
+package ie.atu.sw.crypto;
+
+import ie.atu.sw.asymmetric.CypherType;
+import ie.atu.sw.asymmetric.SymmetricCypher;
 
 public class CypherFactory {
 	private static CypherFactory cf = new CypherFactory();

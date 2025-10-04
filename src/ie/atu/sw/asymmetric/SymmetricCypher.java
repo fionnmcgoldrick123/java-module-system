@@ -1,8 +1,10 @@
-package ie.atu.sw;
+package ie.atu.sw.asymmetric;
 
 import java.security.Key;
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
+
+import ie.atu.sw.crypto.AbstractCypher;
 
 public class SymmetricCypher extends AbstractCypher {
 
