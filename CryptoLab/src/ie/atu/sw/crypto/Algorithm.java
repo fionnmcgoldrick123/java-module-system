@@ -1,5 +1,5 @@
 package ie.atu.sw.crypto;
 
-public class Algorithm {
-
+public enum Algorithm {
+	RSA, DES, AES, CAESAR, VIGENERE; 
 }

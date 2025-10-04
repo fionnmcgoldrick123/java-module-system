@@ -1,15 +1,6 @@
 package ie.atu.sw.crypto;
 
-import java.security.Key;
-
 public interface Cypherable {
-
-	byte[] encrypt(byte[] plainText) throws Throwable;
-
-	byte[] decrypt(byte[] cypherText) throws Throwable;
-
-	byte[] encrypt(byte[] plainText, Key key) throws Throwable;
-
-	byte[] decrypt(byte[] cypherText, Key key) throws Throwable;
-
+	public byte[] encrypt(byte[] plainText) throws Throwable;
+	public byte[] decrypt(byte[] cypherText) throws Throwable;
 }

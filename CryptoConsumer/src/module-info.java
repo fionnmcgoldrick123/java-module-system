@@ -1,8 +1,4 @@
-/**
- * 
- */
-/**
- * 
- */
-module CryptoConsumer {
+module atu.consumer{
+	
+	requires atu.software;
 }
